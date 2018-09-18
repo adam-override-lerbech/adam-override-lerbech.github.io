@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <title>Cellemembran gr5</title>
+    <script
+            src="https://code.jquery.com/jquery-3.3.1.js"
+            integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://bootswatch.com/4/cyborg/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#" onclick="Home()">Cellemembranen</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarColor02">
+            <ul class="navbar-nav ml-auto">
+                <li id="opbygLink" class="nav-item active">
+                    <a class="nav-link" href="#" onclick="Opbygning()">Opbygning</a>
+                </li>
+                <li  id="funkLink" class="nav-item">
+                    <a class="nav-link" href="#" onclick="Funktion()">Funktion</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+<div class="container custom_container">
+    <br><br><br><br>
+    <div id="startup">
+        <a href="#" class="btn btn-primary btn-block" onclick="Opbygning()">Opbygning</a>
+        <br>
+        <br>
+        <a href="#" class="btn btn-primary btn-block" onclick="Funktion()">Funktion</a>
+    </div>
+
+
+
+
+
+
+    <div id="Opbygning">
+        <h1 class="text-center">Opbygning</h1>
+        <p class="text-center">
+            Fælles for alle celler er, at de er afgrænset mod omverden af en cellemembran, som hovedsagelig består af fedtstoffer og proteiner.
+            <br>
+            <br>
+            Fedtstofferne er særlige fosforholdige fedtmolekyler (fosfolipider), som har en hydrofil (vandelskende) og en hydrofob (vandskyende) del. I et vandigt miljø vil cellemembranens dobbeltlag opstå af sig selv, fordi de hydrofobe dele vender ind mod hinanden, og de hydrofile dele vender mod vandfasen, dvs. henholdsvis ind mod cytoplasma og ud mod det omgivende miljø.
+            <br>
+            <br>
+            Cellemembranen er bemærkelsesværdig derved, at den kun er gennemtrængelig for nogle stoffer, mens andre vanskeligt eller slet ikke kan passere den. Man siger, at den er semipermeabel. Cellemembranen tillader cellen at opretholde et indre cellemiljø forskelligt fra omgivelserne.
+
+        </p>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <div id="Funktion">
+        <h1 class="text-center">Funktion</h1>
+        <p class="text-center">
+            Membranen forhindrer, at de forskellige organiske og uorganiske stoffer flyder frit ud eller ind i cellen. At det forholder sig sådan skyldes cellemembranens opbygning. En opbygning, der er universel for levende organismer. Fosfolipid Molekylerne er frit bevægelige som overfladen på en sæbeboble. Afstanden mellem de enkelte molekyler er ganske lille, og det er kun små, uladede molekyler som vand, ilt, kuldioxid og nitrogen, der uhindret passerer.
+        </p>
+    </div>
+</div>
+<script src="Main.js"></script>
+</body>
+</html>
